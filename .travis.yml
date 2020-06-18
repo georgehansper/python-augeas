@@ -13,7 +13,7 @@ notifications:
 install:
 - sudo add-apt-repository -y ppa:raphink/augeas
 - sudo apt-get update
-- sudo apt-get install libaugeas-dev=1.6.0 -V
+- sudo apt-get install libaugeas-dev -V
 - pip install .
 script: make check
 deploy:
