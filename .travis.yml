@@ -10,7 +10,7 @@ python:
 notifications:
 #  email:
 #  - raphael.pinson@camptocamp.com
-dist: bionic
+dist:  eoan
 install:
 #- sudo add-apt-repository -y ppa:raphink/augeas
 - sudo apt-get update
