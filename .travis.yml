@@ -10,8 +10,9 @@ python:
 notifications:
 #  email:
 #  - raphael.pinson@camptocamp.com
+dist: bionic
 install:
-- sudo add-apt-repository -y ppa:raphink/augeas
+#- sudo add-apt-repository -y ppa:raphink/augeas
 - sudo apt-get update
 - sudo apt-get install libaugeas-dev -V
 - pip install .
